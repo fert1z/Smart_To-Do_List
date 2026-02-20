@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews</title>
+</head>
+<body>
+    <header>
+        <h1>Smart To-Do List - Reviews</h1>
+        <nav>
+            <a href="main_page.html">Home</a> |
+            <a href="about_us.html">About Us</a> |
+            <a href="support.html">Support</a>
+        </nav>
+    </header>
+
+    <section id="user-reviews">
+        <h2>User Reviews</h2>
+        <div class="review">
+            <p><strong>John D.</strong> (5/5): Great app! Helps me stay organized.</p>
+        </div>
+        <div class="review">
+            <p><strong>Jane S.</strong> (4/5): Very useful, but could use more features.</p>
+        </div>
+        <div class="review">
+            <p><strong>Bob J.</strong> (5/5): Love the Telegram integration!</p>
+        </div>
+    </section>
+
+    <section id="add-review">
+        <h2>Leave a Review</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="rating">Rating:</label>
+            <select id="rating" name="rating">
+                <option value="5">5</option>
+                <option value="4">4</option>
+                <option value="3">3</option>
+                <option value="2">2</option>
+                <option value="1">1</option>
+            </select><br>
+            <label for="comment">Comment:</label><br>
+            <textarea id="comment" name="comment"></textarea><br>
+            <button type="submit">Submit Review</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Smart To-Do List. <a href="privacy_policy.html">Privacy Policy</a></p>
+    </footer>
+</body>
+</html>

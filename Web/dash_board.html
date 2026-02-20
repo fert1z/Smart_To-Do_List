@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dash Board</title>
+</head>
+<body>
+    <header>
+        <h1>Smart To-Do List - Dashboard</h1>
+        <nav>
+            <a href="main_page.html">Home</a> |
+            <a href="profile.html">Profile</a> |
+            <a href="settings.html">Settings</a> |
+            <a href="logout">Logout</a>
+        </nav>
+    </header>
+
+    <div style="display: flex;">
+        <aside style="width: 20%; padding: 10px; border-right: 1px solid #ccc;">
+            <h3>Menu</h3>
+            <ul>
+                <li><a href="create_issue.html">Create Task</a></li>
+                <li><a href="editing_issue.html">Edit Tasks</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+                <li><a href="notification_settings.html">Notifications</a></li>
+                <li><a href="theme_settings.html">Theme</a></li>
+            </ul>
+        </aside>
+
+        <main style="width: 80%; padding: 10px;">
+            <h2>Your Tasks</h2>
+            <p>Welcome to your dashboard! Here you can view and manage your tasks.</p>
+
+            <section id="tasks">
+                <h3>Pending Tasks</h3>
+                <ul>
+                    <li>Task 1: Buy groceries <a href="editing_issue.html">Edit</a> | <button>Mark as Done</button></li>
+                    <li>Task 2: Finish project <a href="editing_issue.html">Edit</a> | <button>Mark as Done</button></li>
+                    <li>Task 3: Call mom <a href="editing_issue.html">Edit</a> | <button>Mark as Done</button></li>
+                </ul>
+            </section>
+
+            <section id="completed">
+                <h3>Completed Tasks</h3>
+                <ul>
+                    <li>Task 4: Read book (Completed)</li>
+                </ul>
+            </section>
+
+            <a href="create_issue.html">Add New Task</a>
+        </main>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Smart To-Do List. <a href="support.html">Support</a></p>
+    </footer>
+</body>
+</html>

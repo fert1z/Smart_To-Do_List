@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Issue</title>
+</head>
+<body>
+    <header>
+        <h1>Smart To-Do List - Create Task</h1>
+        <nav>
+            <a href="main_page.html">Home</a> |
+            <a href="dash_board.html">Dashboard</a> |
+            <a href="settings.html">Settings</a>
+        </nav>
+    </header>
+
+    <section id="create-form">
+        <h2>Create New Task</h2>
+        <form action="#" method="post">
+            <label for="title">Title:</label><br>
+            <input type="text" id="title" name="title" required><br>
+            <label for="description">Description:</label><br>
+            <textarea id="description" name="description"></textarea><br>
+            <label for="due_date">Due Date:</label><br>
+            <input type="date" id="due_date" name="due_date"><br>
+            <label for="priority">Priority:</label><br>
+            <select id="priority" name="priority">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select><br>
+            <button type="submit">Create Task</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Smart To-Do List. <a href="support.html">Support</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connecting Telegram</title>
+</head>
+<body>
+    <header>
+        <h1>Smart To-Do List - Connecting Telegram</h1>
+        <nav>
+            <a href="main_page.html">Home</a> |
+            <a href="dash_board.html">Dashboard</a> |
+            <a href="settings.html">Settings</a>
+        </nav>
+    </header>
+
+    <section id="instructions">
+        <h2>How to Connect Telegram</h2>
+        <p>Integrate your Smart To-Do List with Telegram to receive notifications and manage tasks via bot.</p>
+        <ol>
+            <li>Create a Telegram bot: Go to @BotFather and follow instructions to create a new bot. Get the API token.</li>
+            <li>Get your Chat ID: Start a chat with your bot and use a tool to get your chat ID.</li>
+            <li>Enter the details below and save.</li>
+        </ol>
+    </section>
+
+    <section id="form">
+        <h2>Enter Telegram Details</h2>
+        <form action="#" method="post">
+            <label for="bot_token">Bot Token:</label><br>
+            <input type="text" id="bot_token" name="bot_token" placeholder="Enter your bot token"><br>
+            <label for="chat_id">Chat ID:</label><br>
+            <input type="text" id="chat_id" name="chat_id" placeholder="Enter your chat ID"><br>
+            <button type="submit">Connect</button>
+        </form>
+    </section>
+
+    <section id="status">
+        <h2>Connection Status</h2>
+        <p>Status: Not Connected</p>
+        <button>Test Connection</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Smart To-Do List. <a href="support.html">Support</a></p>
+    </footer>
+</body>
+</html>
