@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+</head>
+<body>
+    <header>
+        <h1>Smart To-Do List - Settings</h1>
+        <nav>
+            <a href="main_page.html">Home</a> |
+            <a href="dash_board.html">Dashboard</a> |
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <section id="settings-menu">
+        <h2>Settings Menu</h2>
+        <ul>
+            <li><a href="profile_settings.html">Profile Settings</a></li>
+            <li><a href="notification_settings.html">Notification Settings</a></li>
+            <li><a href="theme_settings.html">Theme Settings</a></li>
+            <li><a href="connecting_Telegram.html">Connect Telegram</a></li>
+            <li><a href="privacy_policy.html">Privacy Policy</a></li>
+        </ul>
+    </section>
+
+    <section id="general-settings">
+        <h2>General Settings</h2>
+        <form action="#" method="post">
+            <label for="language">Language:</label>
+            <select id="language" name="language">
+                <option value="en">English</option>
+                <option value="ru" selected>Russian</option>
+            </select><br>
+            <label for="timezone">Timezone:</label>
+            <select id="timezone" name="timezone">
+                <option value="UTC">UTC</option>
+                <option value="MSK">MSK</option>
+            </select><br>
+            <button type="submit">Save</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Smart To-Do List. <a href="support.html">Support</a></p>
+    </footer>
+</body>
+</html>
