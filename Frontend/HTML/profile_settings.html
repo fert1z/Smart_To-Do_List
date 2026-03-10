@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Settings</title>
+</head>
+<body>
+    <header>
+        <h1>Smart To-Do List - Profile Settings</h1>
+        <nav>
+            <a href="main_page.html">Home</a> |
+            <a href="dash_board.html">Dashboard</a> |
+            <a href="profile.html">Profile</a>
+        </nav>
+    </header>
+
+    <section id="edit-profile">
+        <h2>Edit Your Profile</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value="John Doe"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value="john@example.com"><br>
+            <label for="bio">Bio:</label><br>
+            <textarea id="bio" name="bio">Short bio here</textarea><br>
+            <button type="submit">Save Changes</button>
+        </form>
+    </section>
+
+    <section id="change-password">
+        <h2>Change Password</h2>
+        <form action="#" method="post">
+            <label for="current_password">Current Password:</label><br>
+            <input type="password" id="current_password" name="current_password"><br>
+            <label for="new_password">New Password:</label><br>
+            <input type="password" id="new_password" name="new_password"><br>
+            <label for="confirm_password">Confirm New Password:</label><br>
+            <input type="password" id="confirm_password" name="confirm_password"><br>
+            <button type="submit">Change Password</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Smart To-Do List. <a href="support.html">Support</a></p>
+    </footer>
+</body>
+</html>
